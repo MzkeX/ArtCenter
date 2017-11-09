@@ -1,0 +1,222 @@
+/*==========  Desktop First Method  ========== */
+/* Custom Media Queries */
+@media only screen and (min-height: 899px) {
+  /* */
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+	.container {width: 750px;}
+	.main_nav ul li:not(:last-child) {
+		margin-right: 10px;
+	}
+	.brands_wrap {
+		margin-left: 0;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+	.container {width: 90%;}
+
+	.main_nav {display: none;}
+	.hidden_mnu {
+		text-align: center;
+		float: none;
+	}
+	.main_nav ul li {
+		margin: 0;
+		display: block;
+	}
+
+	.main_nav ul li:not(:last-child) {
+		padding-bottom: 20px;	
+	}
+
+	.toggle_mnu {display: inline-block;}
+
+	.brands .brand_item {
+		margin-right: 20px;
+	}
+
+	form input[type="email"] {
+		margin: 20px 0 10px 0;
+	}
+
+	.moreinfo a:after { display: none;}
+
+	.s_events .events {
+		display: block;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	.events li a:after {display: none;}
+
+	.sub_events {
+		display: block;
+		width: 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+	.container {width: 90%;}
+	* {font-size: 14px;}	
+
+	.toggle_mnu {
+		position: relative;
+    margin-left: 85px;
+    margin-top: 20px;
+	}
+	
+	.s_title {text-align: center;}
+
+	.first_content h1 {font-size: 2.7em;}
+
+	.global_search {margin-right: 85px; padding-top: 17px;}
+	.global_search i {font-size: 23px;}
+
+  .social div:not(:last-child) {margin-right: 5px;}
+  .social {display: block; text-align: center;}
+  .social a i {font-size: 25px;}
+
+  .logo{margin-left: 25px;}
+  .top_line {padding: 0;}
+
+  .first_screen .first_content {text-align: center; margin-bottom: 60px;}
+  
+  .owl_nav {
+  	top: 0;
+  	display: block;
+  	left: 0;
+  	margin: 0;
+  	text-align: center;
+  }
+
+  .s_1_brands {display: block; width: 100%; top: 0; text-align: center; padding: 20px 0;}
+  .brands .brand_container {margin: 25px 0 25px 0;}
+  .brands .brand_container .brand_item {float: none;}
+
+  .art_info {
+  	width: 100%;
+  	text-align: center;
+  	top: 0;
+  	position: relative;
+  	padding: 15px;
+  	margin-bottom: 40px;
+  }
+  .info_container {margin-right: 0;}
+
+  .s_range {padding-bottom: 20px}
+
+  .catalog_item {width: 100%; text-align: center; margin-bottom: 20px;}
+
+  .catalog_item_info {width: auto; padding: 0;}
+  .catalog_item_info .ctg_item_info_title a {font-size: 20px;}
+	
+	.moreinfo {
+		bottom: 14px;
+		left: 0;
+		right: 0;
+	}
+
+  .moreinfo a:after {
+  	display: none;
+  }
+
+	.soon_news {
+		display: block;	
+		border: none;
+	}
+	
+  .soon_news_img {
+  	width: 100%;
+  }
+
+  .soon_news_content {
+  	display: block;
+  	text-align: center;
+  	width: auto;
+  	padding: 20px;
+  }
+
+  .soon_news_content_info {margin: 0 0 30px 0;}
+
+	.sub_events {
+		padding: 35px 15px 40px 15px;
+	}
+
+  .sub_event_img_c {
+  	float: none;
+  	margin: 0 0 0;
+  	text-align: center;
+  }
+
+  .sub_event_info time {
+  	display: block;
+  	margin-top: 10px;
+  	text-align: center;
+  }
+
+  .sub_event_item_title {text-align: center;}
+
+  .sub_event_item .event_wrapper {text-align: center;}
+
+  .sub_event_info span {
+  	text-align: center;
+  	display: block;
+  }
+	
+	/*==Form==*/
+	form label {display: block; text-align: center;}
+	form input[type="email"] {display: block; margin: 0 auto 8px}
+
+	.form_btn {display: block;margin: 0 auto;}
+
+	::-webkit-input-placeholder {text-align: center;}
+	::-moz-placeholder          {text-align: center;}/* Firefox 19+ */
+
+  }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+	.container {width: 90%;}
+	.toggle_mnu {margin-left: 20px;}
+	.global_search {margin-right: 20px;}
+}
+
+
+
+/*==========  Mobile First Method  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  
+
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) and (max-device-width : 768px) {
+  
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .hidden_mnu {display: none;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+}
